@@ -1,0 +1,94 @@
+.contact {
+    width: 100%;
+    margin-top: 64px;
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+
+        &-info {
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+                font-family: var(--bic);
+                font-size: 42px;
+                font-weight: 400;
+                line-height: 52px;
+                letter-spacing: 0.06em;
+                text-align: left;
+                color: #090628;
+            }
+
+            &-items {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                margin-top: 23px;
+
+                &-item {
+                    display: flex;
+                    flex-direction: column;
+
+                    span {
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 28.9px;
+                        text-align: left;
+                        color: #646464;
+                    }
+
+                    p {
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 34.68px;
+                        text-align: left;
+                        color: #090628;
+                    }
+                    a {
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 34.68px;
+                        text-align: left;
+                        color: #090628;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            &-social{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                span{
+                    display: flex;
+                    align-items: center;
+                    svg{
+                        width: 18px;
+                        height: 18px;
+                    }
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 34.68px;
+                    text-align: left;
+                    color: #646464;
+                }
+                &-items{
+                    display: flex;
+                    gap: 12px;
+                    a{
+                        width: 40px;
+                        height: 40px;
+                        svg{
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+        iframe{
+            height: 522px;
+            width: 672px;
+        }
+    }
+}

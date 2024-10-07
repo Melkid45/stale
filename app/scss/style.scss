@@ -1,0 +1,34 @@
+@font-face {
+    font-family:'Bic';
+    src: url(../fonts/bic.woff);
+}
+@import './reset';
+:root{
+    --bic: 'Bic';
+}
+body{
+    max-width: 1920px;
+    background: #FFFFFF;
+    font-family: 'Jost', sans-serif;
+}
+.element-animation{
+    opacity: 0;
+    transform: translateY(-20px);
+}
+.element-animation.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.desk{
+    display: flex !important;
+}
+.mob{
+    display: none !important;
+}

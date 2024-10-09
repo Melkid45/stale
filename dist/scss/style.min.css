@@ -18,7 +18,9 @@
 :focus, :active {
     outline: none
 }
-
+.wt-non{
+    white-space: nowrap;
+}
 a:focus, a:active {
     outline: none
 }
@@ -261,7 +263,7 @@ body {
 }
 
 .catalog__body-block-item {
-    width: 4F24px;
+    width: 424px;
     height: 390px;
     -webkit-box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, .2509803922);
     box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, .2509803922);
@@ -9776,7 +9778,9 @@ a {
         gap: 20rem;
         overflow: hidden
     }
-
+    .md-0{
+        margin: 0 !important;
+    }
     .catalog__body-block-item-img {
         position: absolute;
         right: 0;
@@ -10494,7 +10498,9 @@ a {
 
     .header__white-body-logo {
         width: 50rem;
-        height: 37.5rem
+        height: 37.5rem;
+        min-width: auto;
+        min-height: auto;
     }
 
     .header__white-body-logo img {

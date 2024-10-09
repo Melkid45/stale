@@ -377,7 +377,7 @@ body {
 }
 
 .catalog__body-block-item:nth-child(8) img {
-    width: 262px;
+    width: 255px;
     height: 228px;
     right: -20px;
 }
@@ -5155,7 +5155,7 @@ a {
     }
 
     .catalog__body-block-item:nth-child(8) img {
-        width: 262rem;
+        width: 255rem;
         height: 228rem;
         right: -20rem;
     }

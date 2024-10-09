@@ -347,7 +347,7 @@ body {
 }
 
 .catalog__body-block-item:nth-child(1) img {
-    width: 300px;
+    width: 350px;
     height: 228px
 }
 
@@ -383,8 +383,8 @@ body {
 }
 
 .catalog__body-block-item:nth-child(9) img {
-    width: 262px;
-    height: 228px
+    width: 345px;
+    height: 203px
 }
 
 .catalog__body-link {
@@ -649,6 +649,11 @@ body {
     min-height: 91px;
     align-self:center;
 }
+.header__white.active__scroll .header__white-body-logo{
+    height: 91px;
+    min-height: 91px;
+    align-self:center;
+}
 .header__black-body {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -852,9 +857,31 @@ body {
 }
 
 .header__white {
-    width: 100%
+    width: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    transition: all 0.3s ease;
 }
-
+.header__white.active__scroll{
+    background: #fff;
+}
+.header__white.active__scroll p{
+    color: #090628;
+}
+.header__white.active__scroll span{
+    color: #090628;
+}
+.header__white.active__scroll a{
+    color: #090628 !important;
+}
+.header__white.active__scroll .use path{
+    stroke: #090628;
+}
+.header__white.active__scroll{}
+.header__white.active__scroll{}
 .header__white-body {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1331,7 +1358,8 @@ body {
 
 .main {
     width: 100%;
-    padding-bottom: 78px
+    padding-bottom: 78px;
+    padding-top: 187px;
 }
 
 .main__body {
@@ -5125,7 +5153,7 @@ a {
     }
 
     .catalog__body-block-item:nth-child(1) img {
-        width: 300rem;
+        width: 350rem;
         height: 228rem
     }
 
@@ -5161,8 +5189,8 @@ a {
     }
 
     .catalog__body-block-item:nth-child(9) img {
-        width: 262rem;
-        height: 228rem
+        width: 345rem;
+        height: 203rem
     }
 
     .catalog__body-link {
@@ -5419,6 +5447,10 @@ a {
         width: 100%
     }
     .header__black.active__scroll .header__black-body-logo{
+        height: 91rem;
+        min-height: 91rem;
+    }
+    .header__white.active__scroll .header__white-body-logo{
         height: 91rem;
         min-height: 91rem;
     }
@@ -6104,7 +6136,8 @@ a {
 
     .main {
         width: 100%;
-        padding-bottom: 78rem
+        padding-bottom: 78rem;
+        padding-top: 187rem;
     }
 
     .main__body {

@@ -347,8 +347,8 @@ body {
 }
 
 .catalog__body-block-item:nth-child(1) img {
-    width: 350px;
-    height: 228px
+    width: 360px;
+    height: 218px
 }
 
 .catalog__body-block-item:nth-child(2) img {
@@ -367,8 +367,8 @@ body {
 }
 
 .catalog__body-block-item:nth-child(6) img {
-    width: 262px;
-    height: 228px
+    width: 270px;
+    height: 202px
 }
 
 .catalog__body-block-item:nth-child(7) img {
@@ -5153,8 +5153,8 @@ a {
     }
 
     .catalog__body-block-item:nth-child(1) img {
-        width: 350rem;
-        height: 228rem
+        width: 360rem;
+        height: 218rem
     }
 
     .catalog__body-block-item:nth-child(2) img {
@@ -5173,8 +5173,8 @@ a {
     }
 
     .catalog__body-block-item:nth-child(6) img {
-        width: 262rem;
-        height: 228rem
+        width: 270rem;
+        height: 202rem
     }
 
     .catalog__body-block-item:nth-child(7) img {

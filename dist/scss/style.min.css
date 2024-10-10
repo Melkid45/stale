@@ -372,8 +372,8 @@ body {
 }
 
 .catalog__body-block-item:nth-child(7) img {
-    width: 262px;
-    height: 228px
+    width: 230px;
+    height: 239px
 }
 
 .catalog__body-block-item:nth-child(8) img {
@@ -3610,8 +3610,8 @@ a {
 }
 
 .stage__body-block-bot-form-main button {
-    width: 275px;
-    height: 63px;
+    width: 211px;
+    height: 54px;
     background: #007aff;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5178,8 +5178,8 @@ a {
     }
 
     .catalog__body-block-item:nth-child(7) img {
-        width: 262rem;
-        height: 228rem
+        width: 230rem;
+        height: 239rem
     }
 
     .catalog__body-block-item:nth-child(8) img {
@@ -8312,8 +8312,8 @@ a {
     }
 
     .stage__body-block-bot-form-main button {
-        width: 275rem;
-        height: 63rem;
+        width: 211rem;
+        height: 54rem;
         background: #007aff;
         display: -webkit-box;
         display: -ms-flexbox;

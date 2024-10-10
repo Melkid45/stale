@@ -347,12 +347,12 @@ body {
 }
 
 .catalog__body-block-item:nth-child(1) img {
-    width: 360px;
-    height: 218px
+    width: 435px;
+    height: 249px
 }
 
 .catalog__body-block-item:nth-child(2) img {
-    width: 262px;
+    width: 354px;
     height: 228px
 }
 
@@ -5153,12 +5153,12 @@ a {
     }
 
     .catalog__body-block-item:nth-child(1) img {
-        width: 360rem;
-        height: 218rem
+        width: 435rem;
+        height: 249rem
     }
 
     .catalog__body-block-item:nth-child(2) img {
-        width: 262rem;
+        width: 354rem;
         height: 228rem
     }
 

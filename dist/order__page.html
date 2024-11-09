@@ -17,8 +17,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <div class="container">
             <div class="header__black-body">
                 <a href="" class="header__black-body-logo">
-                    <img class="header__logo-none" src="images/dist/header__black.png" alt="">
-                    <img class="header__black-active none" src="images/dist/header__black-active.png" alt="">
+                    <img class="header__logo-none" src="images/dist/header__black.svg" alt="">
+                    <img class="header__black-active none" src="images/dist/header__black-active.svg" alt="">
                 </a>
                 <div class="burger__black mob">
                     <span></span>
@@ -217,12 +217,17 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         </h3>
                         <div class="order__body-info-item-top">
                             <div class="order__body-info-item-top-wrap">
-                                <span>Адрес самовывоза</span>
-                                <select name="" id="">
-                                    <option value="">Г. Нижний Новгродо, пр. Гагарина, д. 138</option>
-                                    <option value="">Г. Нижний Новгродо, пр. Гагарина, д. 138</option>
-                                    <option value="">Г. Нижний Новгродо, пр. Гагарина, д. 138</option>
-                                </select>
+                                <div class="order__body-info-item-top-wrap-select">
+                                    <span>Адрес самовывоза</span>
+                                    <select name="" id="">
+                                        <option value="">Г. Нижний Новгродо, пр. Гагарина, д. 138</option>
+                                        <option value="">Г. Нижний Новгродо, пр. Гагарина, д. 138</option>
+                                        <option value="">Г. Нижний Новгродо, пр. Гагарина, д. 138</option>
+                                    </select>
+                                </div>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19 9L12 16L5 9" stroke="#007AFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
                             </div>
                             <button class="order__body-info-item-top-place">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -270,8 +275,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         </div>
                         <div class="order__body-info-item-block">
                             <div class="order__body-info-item-block-wrap">
-                                <input value="" type="date" placeholder="" onchange="this.className=(this.value!=''?'has-value':'')">
-                                <svg class="arrow__inp" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                <input class="date" onclick="this.type='date'" onblur="if(!this.value)this.type='text'" value="" type="text" placeholder="Желаемая дата" onchange="this.className=(this.value!=''?'has-value':'')">
+                                <svg class="date__svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4 8H20" stroke="#007AFF" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
@@ -296,11 +301,18 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                         stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </div>
-                            <select placeholder="Временной интервал" name="" id="">
-                                <option value="">Временной интервал</option>
-                                <option value=""></option>
-                                <option value=""></option>
-                            </select>
+                            <div class="time__zone">
+                                <span>Временной интервал</span>
+                                <select class="time__zone-select" name="" id="">
+                                    <option value="12:00-14:00">12:00-14:00</option>
+                                    <option value="14:00 - 18:00">14:00 - 18:00</option>
+                                    <option value="18:00 - 21:00">18:00 - 21:00</option>
+                                    <option value="21:00 - 24:00">21:00 - 24:00</option>
+                                </select>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19 9L12 16L5 9" stroke="#007AFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>  
+                            </div>
                         </div>
                         <input placeholder="Тип транспорта" type="text" class="order__body-info-item-inp">
                         <div class="order__body-info-item-dan">
@@ -416,7 +428,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                     </label>
                     <button>Подтвердить заказ</button>
                     <p>
-                        Нажимая на кнопку вы соглашаетесь с <a href="">Политикой конфиденциальности</a>
+                        Нажимая на кнопку вы соглашаетесь с <br><a href="">Политикой конфиденциальности</a>
                     </p>
                 </div>
             </div>
@@ -427,7 +439,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <div class="footer__body">
                 <div class="footer__body-start">
                     <a href="" class="footer__body-start-logo">
-                        <img src="images/dist/footer.png" alt="">
+                        <img src="images/dist/footer.svg" alt="">
                     </a>
                     <div class="line"></div>
                     <p class="footer__body-start-text">

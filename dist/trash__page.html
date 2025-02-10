@@ -427,8 +427,29 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 <h1 class="trash__body-title">
                     Корзина
                 </h1>
+                <div class="trash__body-btns mob">
+                    <div class="trash__body-btns-item">
+                        <label for="checkbox5" class="checkbox-label">
+                            <input type="checkbox" id="checkbox5" class="checkbox">
+                            <span class="checkbox-view">
+                                <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="18" viewBox="0 0 511.985 511.985">
+                                    <path fill="#000" d="M500.088 83.681c-15.841-15.862-41.564-15.852-57.426 0L184.205 342.148 69.332 227.276c-15.862-15.862-41.574-15.862-57.436 0-15.862 15.862-15.862 41.574 0 57.436l143.585 143.585c7.926 7.926 18.319 11.899 28.713 11.899 10.394 0 20.797-3.963 28.723-11.899l287.171-287.181c15.862-15.851 15.862-41.574 0-57.435z"/>
+                                </svg>
+                            </span>
+                        </label>
+                        Выделить все
+                    </div>
+                    <div class="trash__body-btns-item">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 14L14 1" stroke="#7A798B"/>
+                            <path d="M14 14L1 1" stroke="#7A798B"/>
+                        </svg>                            
+                        Удалить выбранные
+                    </div>
+                </div>
+                <div class="line mob"></div>
                 <div class="trash__body-block">
-                    <div class="trash__body-block-top">
+                    <div class="trash__body-block-top desk">
                         <span>Наименование товара</span>
                         <span>Количество</span>
                         <span>Единица</span>
@@ -450,16 +471,42 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                 <img class="trash__body-block-list-item-img" src="images/dist/tr.png" alt="">
                                 <span class="trash__body-block-list-item-name">Лист алюминевый 2.5х1200х3000 2.50 АМЦН2</span>
                             </div>
-                            <input value="28,8" class="trash__body-block-list-item-col">
-                            <select class="trash__body-block-list-item-pood">
+                            <div class="trash__body-block-list-item-attr mob">
+                                <div class="trash__body-block-list-item-attr-item">
+                                    <p>Количество</p>
+                                    <input value="28,8" class="trash__body-block-list-item-col">
+                                </div>
+                                <div class="trash__body-block-list-item-attr-item">
+                                    <p>Единица</p>
+                                    <select class="trash__body-block-list-item-pood">
+                                        <option value="">кг</option>
+                                        <option value="">г</option>
+                                        <option value="">т</option>
+                                    </select>
+                                </div>
+                                <div class="trash__body-block-list-item-attr-item">
+                                    <p>Цена с НДС</p>
+                                    <span class="trash__body-block-list-item-nds">
+                                        553
+                                    </span>
+                                </div>
+                                <div class="trash__body-block-list-item-attr-item">
+                                    <p>Стоимость</p>
+                                    <span class="trash__body-block-list-item-price">
+                                        18 852
+                                    </span>
+                                </div>
+                            </div>
+                            <input value="28,8" class="trash__body-block-list-item-col desk">
+                            <select class="trash__body-block-list-item-pood desk">
                                 <option value="">кг</option>
                                 <option value="">г</option>
                                 <option value="">т</option>
                             </select>
-                            <span class="trash__body-block-list-item-nds">
+                            <span class="trash__body-block-list-item-nds desk">
                                 553
                             </span>
-                            <span class="trash__body-block-list-item-price">
+                            <span class="trash__body-block-list-item-price desk">
                                 18 852
                             </span>
                             <button class="trash__body-block-list-item-do">
@@ -482,16 +529,42 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                 <img class="trash__body-block-list-item-img" src="images/dist/tr.png" alt="">
                                 <span class="trash__body-block-list-item-name">Лист алюминевый 2.5х1200х3000 2.50 АМЦН2</span>
                             </div>
-                            <input value="28,8" class="trash__body-block-list-item-col">
-                            <select class="trash__body-block-list-item-pood">
+                            <div class="trash__body-block-list-item-attr mob">
+                                <div class="trash__body-block-list-item-attr-item">
+                                    <p>Количество</p>
+                                    <input value="28,8" class="trash__body-block-list-item-col">
+                                </div>
+                                <div class="trash__body-block-list-item-attr-item">
+                                    <p>Единица</p>
+                                    <select class="trash__body-block-list-item-pood">
+                                        <option value="">кг</option>
+                                        <option value="">г</option>
+                                        <option value="">т</option>
+                                    </select>
+                                </div>
+                                <div class="trash__body-block-list-item-attr-item">
+                                    <p>Цена с НДС</p>
+                                    <span class="trash__body-block-list-item-nds">
+                                        553
+                                    </span>
+                                </div>
+                                <div class="trash__body-block-list-item-attr-item">
+                                    <p>Стоимость</p>
+                                    <span class="trash__body-block-list-item-price">
+                                        18 852
+                                    </span>
+                                </div>
+                            </div>
+                            <input value="28,8" class="trash__body-block-list-item-col desk">
+                            <select class="trash__body-block-list-item-pood desk">
                                 <option value="">кг</option>
                                 <option value="">г</option>
                                 <option value="">т</option>
                             </select>
-                            <span class="trash__body-block-list-item-nds">
+                            <span class="trash__body-block-list-item-nds desk">
                                 553
                             </span>
-                            <span class="trash__body-block-list-item-price">
+                            <span class="trash__body-block-list-item-price desk">
                                 18 852
                             </span>
                             <button class="trash__body-block-list-item-do">
@@ -514,16 +587,42 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                 <img class="trash__body-block-list-item-img" src="images/dist/tr.png" alt="">
                                 <span class="trash__body-block-list-item-name">Лист алюминевый 2.5х1200х3000 2.50 АМЦН2</span>
                             </div>
-                            <input value="28,8" class="trash__body-block-list-item-col">
-                            <select class="trash__body-block-list-item-pood">
+                            <div class="trash__body-block-list-item-attr mob">
+                                <div class="trash__body-block-list-item-attr-item">
+                                    <p>Количество</p>
+                                    <input value="28,8" class="trash__body-block-list-item-col">
+                                </div>
+                                <div class="trash__body-block-list-item-attr-item">
+                                    <p>Единица</p>
+                                    <select class="trash__body-block-list-item-pood">
+                                        <option value="">кг</option>
+                                        <option value="">г</option>
+                                        <option value="">т</option>
+                                    </select>
+                                </div>
+                                <div class="trash__body-block-list-item-attr-item">
+                                    <p>Цена с НДС</p>
+                                    <span class="trash__body-block-list-item-nds">
+                                        553
+                                    </span>
+                                </div>
+                                <div class="trash__body-block-list-item-attr-item">
+                                    <p>Стоимость</p>
+                                    <span class="trash__body-block-list-item-price">
+                                        18 852
+                                    </span>
+                                </div>
+                            </div>
+                            <input value="28,8" class="trash__body-block-list-item-col desk">
+                            <select class="trash__body-block-list-item-pood desk">
                                 <option value="">кг</option>
                                 <option value="">г</option>
                                 <option value="">т</option>
                             </select>
-                            <span class="trash__body-block-list-item-nds">
+                            <span class="trash__body-block-list-item-nds desk">
                                 553
                             </span>
-                            <span class="trash__body-block-list-item-price">
+                            <span class="trash__body-block-list-item-price desk">
                                 18 852
                             </span>
                             <button class="trash__body-block-list-item-do">

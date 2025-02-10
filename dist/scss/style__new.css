@@ -3795,6 +3795,7 @@
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    max-width: 188rem;
 }
 .advantages__body-item-text span br{
     display: block;
@@ -3809,7 +3810,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #FFFFFF;
-    word-wrap: break-word;
+    word-wrap: normal;
 }
 .advantages__body-item p {
     font-size: 14rem;
@@ -3932,7 +3933,7 @@
     flex-direction: row;
     gap: 10rem;
     overflow: auto;
-    padding: 20rem 0;
+    padding: 20rem 10rem;
 }
 .hit__body-block::-webkit-scrollbar {
     width: 0;
